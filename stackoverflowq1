@@ -1,12 +1,12 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Balloon3A 
+public class Balloon
 {
     private int xCenter, yCenter, radius;
     private Color color;
     
-    public Balloon3A()
+    public Balloon()
     {
         xCenter = 0;
         yCenter = 0;
@@ -14,7 +14,7 @@ public class Balloon3A
         color = Color.BLUE;
     }
     
-    public Balloon3A(int x, int y, int r, Color c)
+    public Balloon(int x, int y, int r, Color c)
     {
         xCenter = x;
         yCenter = y;
